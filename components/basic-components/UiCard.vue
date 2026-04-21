@@ -1,22 +1,20 @@
 <script setup lang="ts">
-import s1 from '/images/portfolio/portfolio-1.jpg';
-import s2 from '/images/portfolio/portfolio-2.png';
-import s3 from '/images/portfolio/portfolio-5.jpg';
+
 const UiCard =[
     {
-        img:s1,
+        img:'s1',
         title:'Special Title Treatment',
         subtitle:'Number 10',
         desc:'Whitehaven Beach Whitsunday Island, Whitsunday Islands',
     },
     {
-        img:s2,
+        img:'s2',
         title:'Special Title Treatment',
         subtitle:'Number 10',
         desc:'Whitehaven Beach Whitsunday Island, Whitsunday Islands',
     },
     {
-        img:s3,
+        img:'s3',
         title:'Special Title Treatment',
         subtitle:'Number 10',
         desc:'Whitehaven Beach Whitsunday Island, Whitsunday Islands',

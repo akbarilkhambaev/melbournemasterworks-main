@@ -11,7 +11,7 @@ const props = defineProps({ item: Object, level: Number });
         :target="item.type === 'external' ? '_blank' : ''"
         :ripple="false" 
     >
-        <v-list-item-title>{{ item.title}}</v-list-item-title>
+        <v-list-item-title class="rounded">{{ item.title}}</v-list-item-title>
         <!---If Caption-->
         <v-list-item-subtitle v-if="item.subCaption" class="text-caption mt-n1 hide-menu">
             {{ item.subCaption }}

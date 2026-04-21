@@ -29,8 +29,8 @@ import logo from '~/assets/images/logo.png'
 /* Mobile styles */
 @media (max-width: 600px) {
   .logo img {
-    width: 100%;
-    height: 50px;
+    width: 120px;
+    height: auto;
   }
 }
 </style>

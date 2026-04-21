@@ -7,18 +7,19 @@ export interface menu {
 }
 
 const sidebarItem: menu[] = [
-    // {
-    //     title: 'Home',
-    //     to: '/'
-    // },
-    // {
-    //     title: 'About us',
-    //     to: '/basic-components'
-    // },
-    // {
-    //     title: 'Services',
-    //     to: '/basic-components'
-    // },
+    {
+        title: 'Home',
+        to: '/'
+    },
+    {
+        title: 'Services',
+        to: '/services'
+    },
+    {
+        title: 'About us',
+        to: '/about'
+    },
+
     // {
     //     title: 'Gallery',
     //     to: '/basic-components'

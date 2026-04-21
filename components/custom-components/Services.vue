@@ -4,14 +4,16 @@
       <!-- Left Column: Text Content -->
       <v-col cols="12" md="6">
         <h2 class="section-title">
-          Welcome to Melbourne Masterworks – Roofing & Construction Experts
+          Welcome to Melbourne Masterworks
         </h2>
         <p class="mb-6">
-          At Melbourne Masterworks, we take pride in delivering high-quality roofing and construction solutions across Melbourne. With years of expertise, our fully licensed and insured team is committed to providing durable, reliable, and expertly crafted roofing services tailored to your needs.
+          Expert tile and metal roof restoration and repairs in Melbourne.
+        </p>
+        <p class="mb-6">
+          Our expert team specialises in a variety of roofing services including roof restorations, roof repairs, and gutter replacements, providing services for homes and businesses across Melbourne.
         </p>
         <v-list dense class="areas-list">
           <li v-for="(item, index) in listItems" :key="index">
-
             <div class="section_2_li">
               <CheckIcon class="mr-1" />
               {{ item }}
@@ -23,7 +25,7 @@
       <v-col cols="12" md="6">
         <div class="residencial__roofing-img">
           <v-img
-              src="/images/backgrounds/image1.jpg"
+              src="/images/works/section6.jpg"
               alt="e-t-roofimg"
               width="607"
               height="370"
@@ -31,7 +33,6 @@
               class="mb-6 rounded-md"
           ></v-img>
         </div>
-
       </v-col>
     </v-row>
   </v-container>
@@ -49,18 +50,11 @@ const listItems = ref([
   "All Work Guaranteed",
   "Skilled Workmanship",
 ]);
-
-
 </script>
 
-<style >
+<style>
 .roofing-section {
-  /* You can add a background image or color if desired.
-     For example, to mimic the corporate banner's style, uncomment the next lines:
-
-     background: url('/images/backgrounds/headerRoof.webp') no-repeat center center;
-     background-size: cover;
-  */
+  /* Дополнительные стили при необходимости */
 }
 
 .section-title {
@@ -76,15 +70,6 @@ const listItems = ref([
   column-count: 2;
 }
 
-
-.residancy-heading {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.residencial-roofing {
-  /* Additional styling if needed */
-}
 .section_2_li {
   display: flex;
   align-items: center;
@@ -94,16 +79,17 @@ const listItems = ref([
   padding: 5px 0 5px 5px;
   width: 100%;
   border-radius: 2px;
-  background: #cfd6e6;
-  background: linear-gradient(90deg, #cfd6e6 0, #dbe3f0 50%, rgba(231, 239, 249, .15449929971988796) 100%);
+  background: linear-gradient(90deg, #cfd6e6 0, #dbe3f0 50%, rgba(231, 239, 249, 0.15) 100%);
   line-height: 100%;
 }
+
 @media (max-width: 600px) {
   .areas-list {
     column-count: 1;
     max-width: 100%;
   }
 }
+
 .residencial__roofing-img div img {
   display: flex;
   border-radius: 8px;

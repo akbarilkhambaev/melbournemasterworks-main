@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { ref, onBeforeMount } from 'vue';
+import { ref, onBeforeMount, nextTick } from 'vue';
+import { useRoute } from 'vue-router'
 import Logo from "@/layouts/logo/logo.vue"
 import { Menu2Icon, SearchIcon } from "vue-tabler-icons";
 import sidebarItem from '@/_mockApis/header/Menu';
@@ -7,9 +8,13 @@ import NavGroup from './NavGroup/index.vue';
 import NavItem from './NavItem/index.vue';
 import NavCollapse from './NavCollapse/NavCollapse.vue';
 import MobileNavCollapse from './NavCollapse/MobileNavCollapse.vue';
+import VueScrollTo from 'vue-scrollto';
 
 const drawer = ref(false);
-//For on Scroll Effect on Header
+const targetId = 'quote-section'
+const route = useRoute()
+
+const link = ref(route.path === '/' ? `/#${targetId}` : `/#${targetId}`)
 onBeforeMount(() => {
   window.addEventListener('scroll', handleScroll)
 })
@@ -21,6 +26,12 @@ function handleScroll() {
     stickyHeader.value = false
   }
 }
+
+const handleClick = () =>  {
+  drawer.value = false;
+  VueScrollTo.scrollTo(`#${targetId}`, 500, { easing: 'ease-in-out' });
+}
+
 </script>
 
 <template>
@@ -40,15 +51,16 @@ function handleScroll() {
                     <NavItem :item="item" v-else class="" />
                     <!---End Single Item-->
                 </template>
-                <v-btn  class="mt-3 submit_button" block size="large" variant="flat">Request a quote </v-btn>
+                <v-btn @click="handleClick" class="mt-3 submit_button" block size="large" variant="flat">Request a quote</v-btn>
             </v-list>
       </perfect-scrollbar>
     </v-navigation-drawer>
-    <!----sidebar menu drawer end----->
     <v-app-bar flat class="header-card bg-surface py-4"  :class="stickyHeader ? 'sticky' : ''">
       <v-container class="py-0">
         <v-toolbar class=" h-auto d-flex  bg-surface">
-          <Logo />
+          <NuxtLink to="/">
+            <Logo />
+          </NuxtLink>
           <v-list class="d-md-flex  d-none flex-wrap py-0  ml-4 menu text-capitalize justify-center w-100">
                 <!---Menu Loop -->
                 <template v-for="(item, i) in sidebarItem">
@@ -62,11 +74,10 @@ function handleScroll() {
                 </template>
             </v-list>
           <div class="d-md-flex d-none">
-            <v-btn class="submit_button ms-3 sticky-border d-md-flex d-none "  variant="flat">Request a quote</v-btn>
+            <v-btn @click="handleClick" class="submit_button ms-3 sticky-border d-md-flex d-none "  variant="flat">Request a quote </v-btn>
           </div>
 
           <div class="d-md-none d-flex align-center ml-auto">
-            <!-- Иконка для звонка -->
             <a href="tel:+61404404996" class="bg-primary rounded-md py-1 px-1 mr-3 d-flex align-center">
               <DeviceMobileIcon
                   size="30"

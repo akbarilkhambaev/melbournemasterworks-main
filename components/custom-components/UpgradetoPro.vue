@@ -37,7 +37,7 @@
       </v-row>
 
       <div class="mt-8">
-        <v-btn class="btn bg-white btn-custom-md" to="/contact" flat size="large">
+        <v-btn class="btn bg-white btn-custom-md" @click="handleClick" flat size="large">
           Get a Free Estimate
         </v-btn>
       </div>
@@ -46,39 +46,57 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { onBeforeMount, ref } from 'vue';
 import { ImgComparisonSlider } from '@img-comparison-slider/vue';
+import VueScrollTo from "vue-scrollto";
+import { useRoute } from "vue-router";
+
+
+const drawer = ref(false);
+const targetId = 'quote-section'
+const route = useRoute()
+
+const link = ref(route.path === '/' ? `/#${targetId}` : `/#${targetId}`)
 
 const projects = ref([
-  // {
-  //   id: 1,
-  //   title: "Residential Roof Restoration",
-  //   description: "Complete repair and waterproofing for a family home.",
-  //   before: "/images/works/30-2.jpg",
-  //   after: "/images/works/30-3.jpg",
-  // },
   {
     id: 2,
-    title: "Commercial Roof Upgrade",
-    description: "Reinforcement and new roofing materials for durability.",
-    before: "/images/works/28-1.jpg",
-    after: "/images/works/28-2.jpg",
+    title: "Roof Cleaning",
+    description: "Thorough removal of dirt, moss, and debris to restore the roof’s original appearance and extend its lifespan.",
+    before: "/images/works/section2.jpg",
+    after: "/images/works/section2-2.jpg",
   },
   {
     id: 3,
-    title: "Old Roof Renovation",
-    description: "Replacing damaged tiles and improving insulation.",
+    title: "Fascia Board Protection",
+    description: "Covering your fascia boards with durable materials to prevent rotting and reduce maintenance.",
     before: "/images/works/29-2.jpg",
     after: "/images/works/29-3.jpg",
   },
 ]);
+
+onBeforeMount(() => {
+  window.addEventListener('scroll', handleScroll)
+})
+const stickyHeader = ref(false)
+function handleScroll() {
+  if (window.pageYOffset) {
+    stickyHeader.value = true
+  } else {
+    stickyHeader.value = false
+  }
+}
+const handleClick = () =>  {
+  drawer.value = false;
+  VueScrollTo.scrollTo(`#${targetId}`, 500, { easing: 'ease-in-out' });
+}
 </script>
 
 <style scoped>
 .compare-slider-wrapper {
   margin: 0 auto;
   max-width: 100%;
-  max-height: 650px;
+  max-height: 450px;
   overflow: hidden;
 }
 </style>

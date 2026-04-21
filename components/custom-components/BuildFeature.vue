@@ -12,7 +12,7 @@ import {BuildFeaturesData} from '@/_mockApis/custom-components/index';
                                 <span class="bg-success pa-2 rounded-circle mr-2"></span>
                                 <h6 class="text-subtitle-1 text-dark font-weight-bold" >MELBOURNE MASTERWORKS</h6>
                             </div>
-                            <h2 class="text-h2 text-dark mb-4" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">Premium Roof Repair & Restoration Services in Melbourne</h2>
+                            <h2 class="text-h2 text-dark mb-4" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">Our Expert Services</h2>
                             <p class="text-muted  mb-4">We specialize in high-quality, reliable roofing solutions tailored to Melbourne’s unique climate. From minor repairs to full-scale restorations, our team ensures durability, safety, and an outstanding finish.</p>
 
                         </div>
@@ -24,7 +24,7 @@ import {BuildFeaturesData} from '@/_mockApis/custom-components/index';
                             <component :is="card.icon" class="text-primary" stroke-width="1.5" size="40" />
                             <h4 class="text-h4 text-dark font-weight-bold my-sm-6 my-4 px-md-6">{{ card.title }}</h4>
                             <p class="text-muted mb-sm-6 mb-4">{{ card.desc }}</p>
-                            <NuxtLink to="/"
+                            <NuxtLink :to="card.link"
                                 class="text-decoration-none d-flex justify-center align-center text-primary hover-primary">
                                 Get Started
                                 <ChevronRightIcon size="17" class="ml-2" stroke-width="2.5" />

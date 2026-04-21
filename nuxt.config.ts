@@ -14,7 +14,11 @@ export default defineNuxtConfig({
   modules: ["@pinia/nuxt"],
   app: {
     head: {
-      title: "Melbournemasterworks",
+      title: "Melbourne Masterworks – Roofing & Construction Experts",
+      meta: [
+        { name: 'google-site-verification', content: 'chFfMK6uEgD6kbxoUtW4_xj9Ol9GIwf8n2YAt8cFb4Y' },
+      ],
+
     },
     buildAssetsDir: "/_nuxt/"
   },
@@ -26,13 +30,11 @@ export default defineNuxtConfig({
   css: ['@/assets/css/main.css'],
   hooks: {
     "vite:extendConfig": (config: any) => {
-      // Устанавливаем корневую директорию для Vite как текущую рабочую директорию,
-      // что может помочь корректно вычислять относительные пути.
       config.root = process.cwd();
+      config.base = '/';
 
       config.plugins.push(
         vuetify({
-          // Используем относительный путь для файла настроек SCSS
           styles: { configFile: resolve("assets/scss/variables.scss") },
         })
       );

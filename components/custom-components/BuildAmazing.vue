@@ -7,7 +7,7 @@ import { CheckIcon } from 'vue-tabler-icons';
                 <v-row class="align-center">
                     <v-col cols="12" md="6">
                         <div class="text-md-start text-center">
-                            <img src="/images/corporate/build-everything.png" alt="image" class="img-fluid" />
+<!--                            <img src="/images/corporate/build-everything.png" alt="image" class="img-fluid" />-->
                         </div>
                     </v-col>
                     <v-col cols="12" md="6" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
