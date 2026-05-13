@@ -89,8 +89,21 @@
     </v-container>
 
     <!-- Notification Snackbar -->
-    <v-snackbar v-model="snackbar" :timeout="3000" color="success" top right>
-      {{ notification }}
+    <v-snackbar
+      v-model="snackbar"
+      :timeout="4000"
+      :color="snackbarColor"
+      location="top right"
+      rounded="pill"
+      elevation="4"
+    >
+      <div class="d-flex align-center gap-2">
+        <v-icon :icon="snackbarColor === 'success' ? 'mdi-check-circle' : 'mdi-alert-circle'" class="mr-2" />
+        {{ notification }}
+      </div>
+      <template #actions>
+        <v-btn icon="mdi-close" variant="text" size="small" @click="snackbar = false" />
+      </template>
     </v-snackbar>
   </div>
 </template>
@@ -118,6 +131,7 @@ const rules = {
 
 // Переменные для уведомления
 const snackbar = ref(false);
+const snackbarColor = ref('success');
 const notification = ref('');
 
 // Функция отправки формы
@@ -143,18 +157,21 @@ const submitForm = async () => {
     });
 
     if (response.success) {
-      notification.value = 'Successfully sent!';
+      notification.value = 'Your request has been sent successfully!';
+      snackbarColor.value = 'success';
       form.value = { name: '', email: '', phone: '', message: '' };
       formRef.value.resetValidation();
       await nextTick();
       snackbar.value = true;
     } else {
       notification.value = `Error sending: ${response.error}`;
+      snackbarColor.value = 'error';
       snackbar.value = true;
     }
   } catch (error) {
     console.error('Request error:', error);
-    notification.value = 'Error sending request.';
+    notification.value = 'Failed to send. Please try again.';
+    snackbarColor.value = 'error';
     snackbar.value = true;
   }
 };
