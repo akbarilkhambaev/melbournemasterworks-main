@@ -19,7 +19,7 @@
               Request a quote
             </h2>
             <!-- Оборачиваем форму в v-form -->
-            <v-form ref="formRef" v-model="valid">
+            <v-form ref="formRef" v-model="valid" @submit.prevent="submitForm">
               <v-row class="mt-1">
                 <v-col cols="12" md="6" class="py-0">
                   <v-text-field
@@ -64,7 +64,7 @@
                   ></v-textarea>
                 </v-col>
               </v-row>
-              <v-btn class="mt-7 px-8 py-2 w-100" type="submit" flat size="large" color="primary" @click="submitForm">
+              <v-btn class="mt-7 px-8 py-2 w-100" type="button" flat size="large" color="primary" @click="submitForm">
                 Submit
               </v-btn>
             </v-form>
