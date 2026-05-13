@@ -123,7 +123,7 @@ const notification = ref('');
 // Функция отправки формы
 const submitForm = async () => {
   if (formRef.value) {
-    const isValid = await formRef.value.validate();
+    const { valid: isValid } = await formRef.value.validate();
     if (!isValid) {
       notification.value = 'Please fill in the required fields correctly.';
       snackbar.value = true;
@@ -132,9 +132,14 @@ const submitForm = async () => {
   }
 
   try {
-    const response = await $fetch('/api/sendMail.php', {
+    const response = await $fetch('/api/sendMail', {
       method: 'POST',
-      body: form.value,
+      body: {
+        fullname: form.value.name,
+        mail: form.value.email,
+        phone: form.value.phone,
+        message: form.value.message,
+      },
     });
 
     if (response.success) {
