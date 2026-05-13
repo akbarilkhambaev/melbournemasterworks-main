@@ -64,7 +64,7 @@
                   ></v-textarea>
                 </v-col>
               </v-row>
-              <v-btn class="mt-7 px-8 py-2 w-100" type="button" flat size="large" color="primary" @click="submitForm">
+              <v-btn class="mt-7 px-8 py-2 w-100" type="submit" flat size="large" color="primary">
                 Submit
               </v-btn>
             </v-form>
