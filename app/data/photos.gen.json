@@ -1,0 +1,755 @@
+{
+  "ba-hip-after": {
+    "slug": "ba-hip-after",
+    "width": 504,
+    "height": 380,
+    "widths": [
+      400,
+      504
+    ],
+    "category": "ba",
+    "label": "Before & after",
+    "alt": "The same hip roof after full restoration in charcoal",
+    "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADQAwCdASoUAA8APxFysFAsJqSisAgBgCIJZQDA3B2eiIvd79AMBQAA/hbWWVmdhdyje3yEGZiCl8Tkz2hPWkowD5wAa9QqlGgip9xDqtfuUhYKa0lytVvm7WjaRTJGzYuVYkCKwOAAAA=="
+  },
+  "ba-hip-before": {
+    "slug": "ba-hip-before",
+    "width": 504,
+    "height": 380,
+    "widths": [
+      400,
+      504
+    ],
+    "category": "ba",
+    "label": "Before & after",
+    "alt": "Weathered terracotta hip roof with worn ridge capping before restoration",
+    "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwAwCdASoUAA8APxFysFAsJqSisAgBgCIJZgCsABxGrr9xTHrbmfEAAP2P5F+uz1GxzAt1BCWTxu/6z3swF2gUrGAGaVMsGyYygzVzN9qHNp4oZij/KiKzjpLTx6+jdz1iEwzzvF0Cvgvh1CYZrJtKitOgAA=="
+  },
+  "ba-metal-before": {
+    "slug": "ba-metal-before",
+    "width": 1280,
+    "height": 945,
+    "widths": [
+      400,
+      800,
+      1200,
+      1280
+    ],
+    "category": "ba",
+    "label": "Before & after",
+    "alt": "Corrugated metal roof with surface rust before restoration",
+    "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAwBACdASoUAA8APxFysFAsJqSisAgBgCIJZQCAAAiN5fFJ0rsAuG3xIoAA8qMMvdoCVaWqVfIgmNERkZEwsBKOeWpVghAhAjI0NhXVudHZwCJ5t0lQHT9VHjMHyy4iB63vzI0r86oAAA=="
+  },
+  "ba-terracotta-after": {
+    "slug": "ba-terracotta-after",
+    "width": 546,
+    "height": 266,
+    "widths": [
+      400,
+      546
+    ],
+    "category": "ba",
+    "label": "Before & after",
+    "alt": "The same roof after restoration, resprayed in charcoal",
+    "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAwCdASoUAAoAPxF2sVAsJ6SisAgBgCIJZwDA3BMueewalMngdQAAysD69t670InvWd9aTU57l4UVPmTtQ/Zm2c+kP0zv6Gzrqk8KW3bP/EMdwAA="
+  },
+  "ba-terracotta-before": {
+    "slug": "ba-terracotta-before",
+    "width": 546,
+    "height": 266,
+    "widths": [
+      400,
+      546
+    ],
+    "category": "ba",
+    "label": "Before & after",
+    "alt": "Faded, moss-stained terracotta tile roof before restoration",
+    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAwCdASoUAAoAPxFysFCsJqSisAgBgCIJYwCdMoACWriAlpOPftQAAPZrjJobntga+aj+bzNOTfETNp1Tsy0KLWhc4tFPqcdXqx96eI9WCoUQQtG1zPixvBPkDPYA3KAAAA=="
+  },
+  "gutters-01": {
+    "slug": "gutters-01",
+    "width": 591,
+    "height": 1280,
+    "widths": [
+      400,
+      591
+    ],
+    "category": "gutters",
+    "label": "Gutters & fascia",
+    "alt": "New guttering and fascia capping installed on a Melbourne home — project 1",
+    "lqip": "data:image/webp;base64,UklGRgoBAABXRUJQVlA4IP4AAABwBgCdASoUACwAPxF4sVKsJySiqqoBgCIJQBdgArvrIdrnxJUPQPZbH7Z/n9fi2FILWeVYt8iAIjDpwAAA/c7oyq3nbGVM0g4RBENnfgxloGyYhH9dJVZaDrJVq1aF+/LOayfNABZWlJ0VH6dnMHNSQj8tYjy9+6h9GTetHSHyBrus1yR9KgqZUiRWJ5u7K5DPUk81/QpWJfK3H9CWmB5ZTC59tAkAAsRO1JwTUeBD2iZBT8Lg6sQMZ5qO1oISbS/eKanbj6gNhBE3B1RKtqMWH1H6KCfdwtgsz/vRKEoLCXTLB2n3NfokNbxJbKjnQew7+Ue9zbuHTbIbUcQAAA=="
+  },
+  "gutters-02": {
+    "slug": "gutters-02",
+    "width": 2560,
+    "height": 1920,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600
+    ],
+    "category": "gutters",
+    "label": "Gutters & fascia",
+    "alt": "New guttering and fascia capping installed on a Melbourne home — project 2",
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAwCdASoUAA8APxFysVCsJqSisAgBgCIJbACdABhwMALBYf4olwAA/FfuJBdpSrNpBUZE9TqZ7SePdnaIoppOHy+D/Z5LTvjEYNcEx2YypRPCTq9I9fuW03Z1o1OOQAA="
+  },
+  "gutters-03": {
+    "slug": "gutters-03",
+    "width": 1920,
+    "height": 2560,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600
+    ],
+    "category": "gutters",
+    "label": "Gutters & fascia",
+    "alt": "New guttering and fascia capping installed on a Melbourne home — project 3",
+    "lqip": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAACQBACdASoUABsAPxFss1AsJaUisBgMAYAiCWYAQgAByjGE1+78HSH16DYNXAAAtdxFgpyJb7e1O/rz2wrstjY2L73/9XfnWTCHtbf/oV6xO1V724DedPS9vo9pb0RDYjmJiUziYcNcFsvSIO43/9DWRZ39EjgtQFIDpB8SMmvSnlc2wdLfbi6MHYQErO4z2YSIkubL9LHta1QuuwIR0Pw+H0EVoN18/lCIs/zZA8LbrhrAAAA="
+  },
+  "gutters-04": {
+    "slug": "gutters-04",
+    "width": 2560,
+    "height": 1920,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600
+    ],
+    "category": "gutters",
+    "label": "Gutters & fascia",
+    "alt": "New guttering and fascia capping installed on a Melbourne home — project 4",
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAwCdASoUAA8APxFysFCsJqSisAgBgCIJagCdLwABM+3e/hJMHUoAAPmtOgp5LlFISu5/ka4nO+zlV4049VrFoH7j14Tz9hIfBOOGtbfZzJhBEwx2mmsN0pPHkFwAAAA="
+  },
+  "gutters-05": {
+    "slug": "gutters-05",
+    "width": 2560,
+    "height": 1920,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600
+    ],
+    "category": "gutters",
+    "label": "Gutters & fascia",
+    "alt": "New guttering and fascia capping installed on a Melbourne home — project 5",
+    "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAABQBACdASoUAA8APxFysFCsJqSisAgBgCIJbACdL12gAAOBl7tqdIImn4BcAMtDNMcRLVqySWssjx5SdPf3pbmmBS9phs6bXtIdjSvqhYPwDPuTRt5stLa+OLC8ghQXauf+FPbvJvSvrW16uyCREg0M+VgsnwFkAAA="
+  },
+  "gutters-06": {
+    "slug": "gutters-06",
+    "width": 2560,
+    "height": 1920,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600
+    ],
+    "category": "gutters",
+    "label": "Gutters & fascia",
+    "alt": "New guttering and fascia capping installed on a Melbourne home — project 6",
+    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAwCdASoUAA8APxFysFAsJqSisAgBgCIJbACdABei71iXADSbVbg8AFvdrlYBql2UOJGQDZ9NQehvXEFNbv6GVbnFSWQhnGZdr/wWog4w6c32D37Ur5ozUZPbrzgwT+UAAA=="
+  },
+  "metal-01": {
+    "slug": "metal-01",
+    "width": 2560,
+    "height": 1920,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600
+    ],
+    "category": "metal",
+    "label": "Metal & Colorbond",
+    "alt": "Colorbond metal roof after restoration and resealing, Melbourne — project 1",
+    "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQBACdASoUAA8APxFysFAsJqSisAgBgCIJZQCw7B6XVL3V0hc5tWXPAAD+23gk2mS5UnWqshtkGWbv+ZOHxqvWr+Qf53sxPxJRXImWXH9Sbqp+6Yp1zWsCYDBnWlXWASII5iSRyAA="
+  },
+  "metal-02": {
+    "slug": "metal-02",
+    "width": 1280,
+    "height": 960,
+    "widths": [
+      400,
+      800,
+      1200,
+      1280
+    ],
+    "category": "metal",
+    "label": "Metal & Colorbond",
+    "alt": "Colorbond metal roof after restoration and resealing, Melbourne — project 2",
+    "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASoUAA8APxFysFAsJqSisAgBgCIJYgC7ACa9nEt3RfuMMVPZwADK9q69tJzvz8SURLpWTMf0IAXwEODf+8LmWobyLJIixUon6a9hbUm5fjRX3V8AAAA="
+  },
+  "metal-03": {
+    "slug": "metal-03",
+    "width": 1280,
+    "height": 960,
+    "widths": [
+      400,
+      800,
+      1200,
+      1280
+    ],
+    "category": "metal",
+    "label": "Metal & Colorbond",
+    "alt": "Colorbond metal roof after restoration and resealing, Melbourne — project 3",
+    "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABQBACdASoUAA8APxFysFAsJqSisAgBgCIJZACdACPrkWGHppylOrpCRWYAAP4AdRF9evwIe5yePbY0Nw3Hgy0fO2k4CbIt9G1pWQHbXDRjZ2W9wQnznLMQBAOBfkrrQSB+LMQ19ormXbbpNSc7HtW6/0EW2rgA"
+  },
+  "metal-04": {
+    "slug": "metal-04",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "metal",
+    "label": "Metal & Colorbond",
+    "alt": "Colorbond metal roof after restoration and resealing, Melbourne — project 4",
+    "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACQBACdASoUABsAPxFurVGsJiQisBgMAYAiCWMAzcAQ616gBwCWXRFv631/28AA/rjgBef4c2EI9DNizSWlxDMe2SsVtbF0exELT9uzSt7xjR2+9zZGb2n52U6CeNs7/mjiyhIAAAA="
+  },
+  "metal-05": {
+    "slug": "metal-05",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "metal",
+    "label": "Metal & Colorbond",
+    "alt": "Colorbond metal roof after restoration and resealing, Melbourne — project 5",
+    "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAACwBACdASoUABsAPxF+t1WsJ6UjKAgBgCIJZQDO7AeM//wcCBP/1COH0GhukdG0AP0g9FfMdfpRPSs7bEqcKtNP3XU6Dr1gtxgThLUuPaF2pa53DvOVInmf0VrU7YYUer60tzaUQnOFrK5tTPOyMdXtpczbK2Xk8/OgAAAA"
+  },
+  "metal-06": {
+    "slug": "metal-06",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "metal",
+    "label": "Metal & Colorbond",
+    "alt": "Colorbond metal roof after restoration and resealing, Melbourne — project 6",
+    "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAwBQCdASoUABsAPxF4sVIsJySiqA1RgCIJQBXhgiMAmzAnFLjUClwAGE46HT18t1MAAAD+IotATKML2e4H/rTVot6lsk3Y0CbUfI3yq0NkMWlxy5xAPk3tyYgFzBF0EwhrK+GQppW09f25bgPQYr8wHlX/pjv+1aQIOiLpptuEFN/wsK4HFgRqZ+PpzSIxHsRcqb+s/gAAAA=="
+  },
+  "metal-07": {
+    "slug": "metal-07",
+    "width": 1280,
+    "height": 960,
+    "widths": [
+      400,
+      800,
+      1200,
+      1280
+    ],
+    "category": "metal",
+    "label": "Metal & Colorbond",
+    "alt": "Colorbond metal roof after restoration and resealing, Melbourne — project 7",
+    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADQAwCdASoUAA8APxFysVCsJqSisAgBgCIJZQBTAAbF+v4nwgxIwAAA/uxNWYlTzrKGbdWwJhe6LMVoTtNVwEiy1umVXcWcZWLWbwi7EFlu1Zx7XAZsIpcIM5lclx/ZigAAAA=="
+  },
+  "metal-08": {
+    "slug": "metal-08",
+    "width": 1280,
+    "height": 960,
+    "widths": [
+      400,
+      800,
+      1200,
+      1280
+    ],
+    "category": "metal",
+    "label": "Metal & Colorbond",
+    "alt": "Colorbond metal roof after restoration and resealing, Melbourne — project 8",
+    "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwAwCdASoUAA8APxFysFAsJqSisAgBgCIJYwC7ACKl8BAOLBeHgYvWAP7MFPrPpZYGwIxcQHm6Uj+Smrok8Qj3oY3fI+sa5mAPjodgXEGYa0XuQDDE83e+ZG1n04EbNrxQLkDp6qilKNojHCFagAAA"
+  },
+  "metal-09": {
+    "slug": "metal-09",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "metal",
+    "label": "Metal & Colorbond",
+    "alt": "Colorbond metal roof after restoration and resealing, Melbourne — project 9",
+    "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAADQBACdASoUABsAPxF4uFMsJyWiqAqpgCIJQBOgAereQujrvRFmUeM+aBeGMBaqAADOBjj4bvzb51FMoGkn+WL4DK1riHRQLwF4EkelmnHFwLisi5cIA7HT27b8GnDkEKz6Px0F+5QMhWTCMFeeErZd4tD21Kg0Tv/L8gaSTARrS0cbOMc5VK3tNzUm1OqpDHsQ0CIAAAA="
+  },
+  "metal-10": {
+    "slug": "metal-10",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "metal",
+    "label": "Metal & Colorbond",
+    "alt": "Colorbond metal roof after restoration and resealing, Melbourne — project 10",
+    "lqip": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAAAwBQCdASoUABsAPxF+t1WsJ6UjKAgBgCIJZwDMWBDeeibr2mCu8G/nq4IyyADTQonIaAD+h7KisZp1qnGMNZ/P6RFVl+q62lX4fdRuObl9jxcZPdCBtxW/yy/21JR3oBU63uwOdOQuN5ZYip+MaeWGJmMjYMTvjzwU245gEYoALVEkXS9IAi42UGrllgI6AUOoS/vhS/F24iUyGQSvDgw1Etc3/vLv3wNnHK2Nh/CeRcpulG8YugAA"
+  },
+  "repairs-01": {
+    "slug": "repairs-01",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "repairs",
+    "label": "Repairs & re-pointing",
+    "alt": "Weathered tile roof with cracked ridge pointing and moss, before repair — project 1",
+    "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAACwBACdASoUABsAPxF4slIsJySisBgIAYAiCWcAyRAFk5cXZWCkLgzboy+cTrgAAN3qZjuCcb6jAxzNyhnVQFf3RaSRspgfB7x2FyCLuACJcqBt/6JyLGlYMaTt05SNW8tVOsid9UcfUMFDYfkHvSPn0Jrn9lfTEVoLiA+4rKovhyJxUOAAAA=="
+  },
+  "repairs-02": {
+    "slug": "repairs-02",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "repairs",
+    "label": "Repairs & re-pointing",
+    "alt": "Weathered tile roof with cracked ridge pointing and moss, before repair — project 2",
+    "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABQBQCdASoUABsAPxF6sFGsKCSisBgIAYAiCWcALv/APY91P4fcEmMj2m7PtkcyGgl0SzAA/udeRWkyndFbX/FwmUFDbkmX0CBNegwoBdJh+8DPYvv97BLMdQoULaFYekAaTwmTfP0oe5MEKJ1Aq3xlxBaY8TzB7CBZhrp2mmIKutndXrrXeIcBwZFmoHgA"
+  },
+  "repairs-03": {
+    "slug": "repairs-03",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "repairs",
+    "label": "Repairs & re-pointing",
+    "alt": "Weathered tile roof with cracked ridge pointing and moss, before repair — project 3",
+    "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABwBACdASoUABsAPxF2r1AsJ6QisAgBgCIJZwAHB9mcTmaxSW4qz1uK2eFoEAD+6pbHavyBqSsgNF0G+2U+qRHoSXO+VO5qOhRlb6OBxjQqwWzGNqiwabH77D9618F2EVPBKLMQ6z7KopSzrD3UpmcFTekoTxwsorS5Z6kQAAA="
+  },
+  "repairs-04": {
+    "slug": "repairs-04",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "repairs",
+    "label": "Repairs & re-pointing",
+    "alt": "Weathered tile roof with cracked ridge pointing and moss, before repair — project 4",
+    "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADwBACdASoUABsAPxGAuFWsKCUjKAgBgCIJZQDGQBEgcRkIeqOBUm4Mx7isC4gwIAAA/NlamBxgj7hnmivC9NMgCQX9NrdHgiZJXv+60W7P/ohwiCAAEvcPLeGjjSaUi8eKP6SIEeyO+djgI0yADn4Q4QDx+ghZVm0rIzxpTVVRRFwwExY7xVHIKIM+0NqoAAA="
+  },
+  "repairs-05": {
+    "slug": "repairs-05",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "repairs",
+    "label": "Repairs & re-pointing",
+    "alt": "Weathered tile roof with cracked ridge pointing and moss, before repair — project 5",
+    "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAwBQCdASoUABsAPxF0sFAsJySisAgBgCIJZQDDNCHUhSKZad/E999qXSBRhc3f8igQAAD+3o9kvsjYjf+6VcfQ+bGcE2R1gULp0TMfdPB3cZxhXDs4BrpDTfqgTv6avaztPlBUrPTsVTS6DZ6z0zIaD53FkL3bOXrfGo4hqU9+/kE7UgpWq7LSVnHUAy61XNyXEPEEoAA="
+  },
+  "repairs-06": {
+    "slug": "repairs-06",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "repairs",
+    "label": "Repairs & re-pointing",
+    "alt": "Weathered tile roof with cracked ridge pointing and moss, before repair — project 6",
+    "lqip": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADwBACdASoUABsAPxF6tVOsJ6UiqAqpgCIJZwAALNV6OlkiS0zZtgbXwqhhl1HuX6gA99u955sVeyzSKZq/futgWzyMUJ7fUaXo9eNxnA4rNti2HD8d/Og6RaTdv0K9cYVmkDWRvZvpDN9ycB/4Al7NjZ7C3tvq070Mw9YxCMlVfSIwzuysxJNOkKQsRr9AOr8qkpQV9btN7s4gQAA="
+  },
+  "repairs-07": {
+    "slug": "repairs-07",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "repairs",
+    "label": "Repairs & re-pointing",
+    "alt": "Weathered tile roof with cracked ridge pointing and moss, before repair — project 7",
+    "lqip": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAAAwBQCdASoUABsAPxF0s1KsJiSisBgIAYAiCWUAzFgQpR8OnqKd6eztv2pvK6bCnBCiAADyo/X7rG7GHmHkv+LDxGr7UL+O/19krRfDKx9AJxHTEY/AJff8xfgI9ietXo38gYCZRcEg3HQXMC03h7+kR/gV4nSctSJIclDQ97QKAmDfXloq1Udxor1/3aPqGdqnqrewvV03aOkVwX+eNMu+SU/QiB5XF+L8O9GMAAA="
+  },
+  "repairs-08": {
+    "slug": "repairs-08",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "repairs",
+    "label": "Repairs & re-pointing",
+    "alt": "Weathered tile roof with cracked ridge pointing and moss, before repair — project 8",
+    "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAACQBACdASoUABsAPxF0rVCsJyQisBgMAYAiCWMAABR+MW3xZjsF1hCPnteddMAA/d4YADYHbl1o2nmnwCmqNcLv6jmZBtNneCDx9weJRKdmUGN+lwgGGQSvQxO5kkAJ6S6H1nOWcp1UHppVH0GsoluWXNGeQPphMHxlY84AAAA="
+  },
+  "repairs-09": {
+    "slug": "repairs-09",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "repairs",
+    "label": "Repairs & re-pointing",
+    "alt": "Weathered tile roof with cracked ridge pointing and moss, before repair — project 9",
+    "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABwBACdASoUABsAPxF8tVWsJySjKAgBgCIJZQC2FA3aUn/9DyzULjUPAdA/oAD9/rz23NkXi+VNAMS0/7DprSUioltoiAs2adm0dztNIhraWwN36j4E8Lmmscu03EN8VbpirK5hVD07K/u54mMnnFKYe+ywYpTQ3W2DeX8AAAA="
+  },
+  "repairs-10": {
+    "slug": "repairs-10",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "repairs",
+    "label": "Repairs & re-pointing",
+    "alt": "Weathered tile roof with cracked ridge pointing and moss, before repair — project 10",
+    "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAQBQCdASoUABsAPxF4sVIsJySisBgIAYAiCWUAw3APA3dV/29taUYyJ12F6WCV9DAAAPRwT7fh0dz7Uuzp1WBT9+ICBnbUe4vaYNIecocNNBKwmgyRdF7veH1KjHZ+3MDotPOqJF44WfLes9iGVxx05vUkapAE1ehlMPYpSUeHNwTE5OeLEy7o4qVetPzwo+F7lVmHhBbYAAAA"
+  },
+  "restoration-01": {
+    "slug": "restoration-01",
+    "width": 1280,
+    "height": 960,
+    "widths": [
+      400,
+      800,
+      1200,
+      1280
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 1",
+    "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADQAwCdASoUAA8APxFwsFAsJiSisAgBgCIJYgAAM5FPXPk5BmT6qQAA/oPrnYinIOgkmQkCRLN1I+hDfVascH+vrPEqgrCStAdUld2xfHw5QfG/C9wFndIGQgWbINWfODb/82aUl+Iek1v/8r4f8/pLQb4AAA=="
+  },
+  "restoration-02": {
+    "slug": "restoration-02",
+    "width": 598,
+    "height": 1280,
+    "widths": [
+      400,
+      598
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 2",
+    "lqip": "data:image/webp;base64,UklGRuAAAABXRUJQVlA4INQAAABQBgCdASoUACsAPxF2uVQsJqYjKrgKAYAiCWcAx+Qi8K7v1K5A0mPctftkUGJFL3LslQwhx43jdFL4AAD+yMbsIJOiXJLzyx23dBKMDiCqUzOkCkV6e/fFJCkIO2MAvietkbaxHEYG7F0XhR8gkCUNsf9LdtwYhWSJDgmPLzzSwRyrFnufAxXne5doux8AbYBn4/xgBqD/Iprql5+bpla1m9oq2VKUE3HLu+EHyXA5ABb5Qa/1YYDXW6YUUBdNv6xb00gepfAzqNgks2oR4eheVg5AAA=="
+  },
+  "restoration-03": {
+    "slug": "restoration-03",
+    "width": 598,
+    "height": 1280,
+    "widths": [
+      400,
+      598
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 3",
+    "lqip": "data:image/webp;base64,UklGRvQAAABXRUJQVlA4IOgAAADQBgCdASoUACsAPxF0slGsJqSisBqoAYAiCWcAy+W0Hr2lr/YhnkfM23xgl4slo2jbv8foTeOa/RVJwHoCJYAA/tPJaEITVOz7hsEI8OH9iw7hL1sM41DWfPoR2Agryg8HWFXO+5U+RvbJRBO6pjfCzhgmtslBSXhkmt84yo0GSdpXFpogSAMF363Uff41br6hp0X9j8hiMUr9+dtWfLmlN72FA77KRtHRCMFLEkFqzB9x//XqbCU85uxHsNPDubXkacSab2/fOhUzl82whdqUZYD+uOGJqnB/6rNQ2t0+zRRdcvasBAAA"
+  },
+  "restoration-04": {
+    "slug": "restoration-04",
+    "width": 598,
+    "height": 1280,
+    "widths": [
+      400,
+      598
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 4",
+    "lqip": "data:image/webp;base64,UklGRvQAAABXRUJQVlA4IOgAAABQBgCdASoUACsAPxF+tlOsKCUiqrgKAYAiCWcABRADA1M2oHtecOa0dVxchDB+09MFpMBGLSFL82ZoYAD+1GQwPbLwDde8DUeyMRCCE4Zh1Ha0TRT8xDYXmumht/p5s9kiLNessOin/RBrnykxCwIBzp2/QA6TWu853CW9msCOEZNe1FDXZ5tIqTAvlo/heIzzNx2hWglnrWQ7ZIzPihYj9SM2rneUcY56MXVNZupEo3/d0gkpsXpvY/lROmuxTdRmrtNhi4Pn8guUQZm4FCz+4QhGsaJTJltLSrZys77zTIxmAhmUwAAA"
+  },
+  "restoration-05": {
+    "slug": "restoration-05",
+    "width": 598,
+    "height": 1280,
+    "widths": [
+      400,
+      598
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 5",
+    "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAACQBQCdASoUACsAPwVqrVArpiQitVgMAXAgiWUAr4QWc9f7iIJiqaqrelEpUq71jxcfn56wAAD+0yV1SKa/otp5VvhaSigbKpH1BocVY066xXDcDoz04kLb/RMgzhGq1CMeLsn7pJJtxCCKhJ3ZWHhDW6UW1Z97OcRe4+hd+9dCtPREbL7MWwMAXyaxtUIrKAEPWWb4AAA="
+  },
+  "restoration-06": {
+    "slug": "restoration-06",
+    "width": 598,
+    "height": 1280,
+    "widths": [
+      400,
+      598
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 6",
+    "lqip": "data:image/webp;base64,UklGRuoAAABXRUJQVlA4IN4AAADwBQCdASoUACsAPxF8sFKsJ6QiqqoBgCIJQBfJAtMuF1hJJOdI0cwEdPdzBE0M/94klgWJMrkSAAD+YHm4huD4l2rCCKNcTJH0d5C7BsU2F8wkG7MyFrUqRAbEBuMABYJvdOCit1robtgeBqxqCi0EwN5SCshTzytB8gvxdfszpz9JmfsslzU+p5HZoAni8Vbr+H/kFjpNwjzlqEJ+mrqEVjHsCJkSSqLXDavnYbwCUKg/c/atDglEeckINJ1qFYECxkzqegrv4OmhPRzWDZaIB1pvVBOUaxjUCbCAAAA="
+  },
+  "restoration-07": {
+    "slug": "restoration-07",
+    "width": 598,
+    "height": 1280,
+    "widths": [
+      400,
+      598
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 7",
+    "lqip": "data:image/webp;base64,UklGRsoAAABXRUJQVlA4IL4AAABwBQCdASoUACsAPxF6r1GsKCQiqqwBgCIJZwDKABIFCuAo9ZJGjC1WbVX+zzcfzrpCxW0kAP6NMNvp7ggi9GrhF9xpDwxwVyy4o27UY+N5IO5Q1ZnCquTdOTY3hbSQHkBswgdEWkzDSfQDWQbSlbLrWXuZVovyKFSexTUDkFji4k2dnwD/uXsWv1tqInq94Ty4uFu5+HTyuGDrwJzrcPFrirr74UGWgSitZiws3A2+3dcY/cTgkuoy8k8s2AAA"
+  },
+  "restoration-08": {
+    "slug": "restoration-08",
+    "width": 598,
+    "height": 1280,
+    "widths": [
+      400,
+      598
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 8",
+    "lqip": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAABwBACdASoUACsAPxF2rVCsJ6Qiqq35gCIJZ1nyUlGDlAR6yMPdv5xRogF/IAD+yJvTfaBIQfH4+4OrEEw2UKZOjv5v9IcDGnYXy8kqHP6F5eu5A+HQ8QLk5vZyc0VoL62VcMFwjred52/MnInKCv8a6uS/aaSCtYIXdxh/q6VVaZjVTs5Vc8V/uSqcBExEqBgNi4T/AtUO1L7LY8voW6KoJsWquWFc16YWJMAAAAA="
+  },
+  "restoration-09": {
+    "slug": "restoration-09",
+    "width": 598,
+    "height": 1280,
+    "widths": [
+      400,
+      598
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 9",
+    "lqip": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAAAwBgCdASoUACsAPxF6tFQsJ6SjJWzJgCIJQBhuAXgYKvR9bgHaIgKcu0Mh+tEAqGj7NPHNnylOPOMAAP6u0EbFvD+4LjexccXFHPH1/HtXT5438T1s2KpwR1RLZ5LRfl8ldypE33EcRpQO/bEQdyYuhJx/0oqbitJLcxWYZ9syjqiBl4Knn184PciVwUYXpYj5QNq8VF8FDSKZQQs1DR8PA0n1K9ulxacjmMfCJZN/D11iZDfwTt6IMCAAAA=="
+  },
+  "restoration-10": {
+    "slug": "restoration-10",
+    "width": 598,
+    "height": 1280,
+    "widths": [
+      400,
+      598
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 10",
+    "lqip": "data:image/webp;base64,UklGRtQAAABXRUJQVlA4IMgAAACQBgCdASoUACsAPxF2slEsJySiqqwBgCIJQBhWdgA+KKDg4Qkt2dfgXH7rUbSHqjRZi+Q9vuD0jyCKcBiAAP7D2/Oze9kZCU1UUQrCEjmOmFacFHjw4Lm8OqxRo/nsyU0gSO/G2AtQAoUGIBNoPwWuVA09mwVneZPwkvDVyndCcPY3PiYkZgQZE3H2MvGZpq85ZdySUTRGUgcL64WRHs2X0qtCX+hxND2grjADTD/I3hcd7LYTg6Q9kpG8gHv+UQz+6QITAAAAAA=="
+  },
+  "restoration-11": {
+    "slug": "restoration-11",
+    "width": 598,
+    "height": 1280,
+    "widths": [
+      400,
+      598
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 11",
+    "lqip": "data:image/webp;base64,UklGRsIAAABXRUJQVlA4ILYAAADQBQCdASoUACsAPxFwsFCsJiSisBVdUYAiCWUAvPtYAB0rq8fP8+zDN+xq9VG7+JcBOwdOYvAAAP61PionJNnddtLI1CwZ9uZeD2xM1YR5umR4AwiSjMIEmnEM4bGdDcFJKszhcC6ZMLUjrteSMQynHHJPoBl4g95mXBoAdtRDrw30XAyWdZXwNROhGR4ViAQa/XukXVQmeQegEZVmCaxm1lGUWcp6e4/c8qDHC9oQmhNo7qCAAA=="
+  },
+  "restoration-12": {
+    "slug": "restoration-12",
+    "width": 598,
+    "height": 1280,
+    "widths": [
+      400,
+      598
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 12",
+    "lqip": "data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAAAwBgCdASoUACsAPxF4tVQsJqSjKrgKAYAiCWUAwoAcpIX6hCUhlXV5XjhOh71anUkgTLRgQGS0foAAAP5Xc3Lx+XrQPKxbWiRKQY1DzWLH4RI0w+dduAxJKXdlSH3XNwgtLEdpk9pkJaAT+1SvneMwAYtBQoAUY1j5NGCMWdMrEpfoev5q5yfdu31qBWbvwnbacCev9BYkXtaPACCF1PEivbPpf7xeIMgplT5yDJLW/rjXbehEpn2n7lpb3mIIatJmOPwTn/yT0zDjN+Ch8RBkkCkEhPdsOCnnJAAA"
+  },
+  "restoration-13": {
+    "slug": "restoration-13",
+    "width": 598,
+    "height": 1280,
+    "widths": [
+      400,
+      598
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 13",
+    "lqip": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAADwBQCdASoUACsAPw12s1AsJ6UiqrgN+YAhiWUAy6auADwDshjBWrnOXDmi5/eA+G2ukuH6m5UQAAD3pj42IoNRSju6x5fZ7j+YMzIEBjGgWlSbP4+Olx4kfMMGM7GShiAKFy4ATjw6frno37DbyYqlJNpIgm2E52Yt2otAyzdbOwKRHCDGeCXxKgZrI2QdLU3By3fVq4P4MXZoi4nqh8xr0qFvYc6lwAA="
+  },
+  "restoration-14": {
+    "slug": "restoration-14",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 14",
+    "lqip": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAADwBACdASoUABsAPxF6t1OsJ6WiqAqpgCIJQAAFOKqJ0HziuvcMxB6gelJPv4IU9qAA/lMS5atN64dnSUsf7DNaBDi+eCCcgsWDHFQ/LXuVFKhf/hKjJ6QL9e2bKMeXBQDTrKVjyAy31g+1CHL+AAHjIEK0HZ0jS1bhYy5ICDK+qLRerlc+Wh+sJbUwN9knz4hS9Vn+eqeKXTwf5B4x02nzK53+97PILdDZwqJ/AAA="
+  },
+  "restoration-15": {
+    "slug": "restoration-15",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 15",
+    "lqip": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAAAwBQCdASoUABsAPxF+slQsKCQjKAqpgCIJQAECzD/096zV4VH0e2hEW7WrItvM9GHuAAD+wnnCWrjhUCjolpbzxNCec1W85zCcaLd1IaNS9cFQg60uweT0XIeyDpy1W/k/9dZYQ8j8ABuGq8U91Tj6udASkAOq08b8/DIzaRIYCIUDmsv3eJiJHg7w7CVkjgriZ9xPEJ5u/xRK1U65TFkLpsk/Ja5XtxdgAAAA"
+  },
+  "restoration-16": {
+    "slug": "restoration-16",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 16",
+    "lqip": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAABQBQCdASoUABsAPwVsr1ArpiSisAwBcCCJQBfnBDuSjBlaIKCkI2heEbfd2Qrs7kJjQgAA/HrVnekJv23qNcRdjo5O7tN3LzsNY7penfgayRyQL8JmFdIBWofg4wb5U/ww3xU+QHRHIvFRRn3afZT/PnjmWiVSmbi+XC7RvEJI1+j+NvOUPplfJuBasmyPQiyWxQE4JxBUeciU2dtHgAAA"
+  },
+  "restoration-17": {
+    "slug": "restoration-17",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 17",
+    "lqip": "data:image/webp;base64,UklGRtQAAABXRUJQVlA4IMgAAAAQBQCdASoUABsAPxF4slIsJySisBgIAYAiCUAW2QG4j/HqhHhf/p4UuW7ial5hBkIAAP6M6ruB5QnRF2Lx7KbyO+GzAimDPnHs1zN3MdtbNcn3K3sWMetoaviZXKAK3LVcZVcZffKNHZgLlwuqbbMUgyNLo6KeVIh7BlnR/qOWbRQCMcdFlKP05L/yjpH0x9svcLUpbs2AtqB/I7LjELB5Muq68v4LzhLIY1//iAK36/B1+5y2Ns7+e1rmKW2mji3ybSKknmAAAA=="
+  },
+  "restoration-18": {
+    "slug": "restoration-18",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 18",
+    "lqip": "data:image/webp;base64,UklGRuwAAABXRUJQVlA4IOAAAABwBQCdASoUABsAPxF8tFOsJ6SiqAqpgCIJZwDKABIs4s+IVflfklnKQ6qhdOMpCiHkTo7AAP6YWD4+sLmMrVgSPCSTa4d6DGu+H1io/8UKS2SIvJ2ievxU8p+L6Q5yNezongDwstQsD4mYgHo8XgVrvi0EF4csjJi6CkQkJSTvTI6vzw6FKwqYp3mK/j+P+LoS1hPW6zdChq19WhMHovYCpdaid822ioba+lxWm4UoVha5yxZ5WngDApaX1XlBoVJAEuf5HKjPvHlRLYMreBLWDWgHJUe8TeA/2H/ZelgAAA=="
+  },
+  "restoration-19": {
+    "slug": "restoration-19",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "restoration",
+    "label": "Roof restoration",
+    "alt": "Concrete tile roof restored and resprayed in charcoal, Melbourne — project 19",
+    "lqip": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAACQBQCdASoUABsAPxFwrlAsJiQisAgBgCIJYwDKtYyo3FaUL0D5JlJNrM8ubGjk5bCvXEn4AAD+kHC+smUXiIfkDhGZ/MbZxJL7YvKqweYRtYPcauuELkDlVq6nVZDPeT5sOM99CnxohIvzJ7GCxQwfqaBjrxegdcOzPjgTAn4WOxt7GISKJoYp6AATdzndyX+mIXfKUxZofjoO7da5YfvEKQhmtxbLmFbJXVe7Zx0YszMOAAA="
+  },
+  "terracotta-01": {
+    "slug": "terracotta-01",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "terracotta",
+    "label": "Terracotta tile",
+    "alt": "Restored terracotta tile roof with fresh ridge capping, Melbourne — project 1",
+    "lqip": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAACwBACdASoUABsAPxF8sVSsJ6QjKAqpgCIJQBdmYU7AAIveCuDf1uEU5m3m61IAAP6xADe1Z/QwflhwQ7/gNjttzzLIh4pJ1ksDnMuySvA+cSiYJFWnVns/19BSlMtRfi6sib7o4/xuBDtXQbyishYUYb1//FSNxWfEoFDo/1ZOXkByFpisnoN7TFZRcbEy7ZSV9NBEJ8CHgZF0AAA="
+  },
+  "terracotta-02": {
+    "slug": "terracotta-02",
+    "width": 1280,
+    "height": 960,
+    "widths": [
+      400,
+      800,
+      1200,
+      1280
+    ],
+    "category": "terracotta",
+    "label": "Terracotta tile",
+    "alt": "Restored terracotta tile roof with fresh ridge capping, Melbourne — project 2",
+    "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAwBACdASoUAA8APxFysFAsJqSisAgBgCIJbACdMoMrZD06jL9Ujn9MjYAA/oO19lPi0YcbosXC8caKvuMsp4IWxk78vfbaW5ap2/Kjrp9sU69xJ8K8wNreWJo02PglpwhKigv2lFzFw0LLPny1al+tAAA="
+  },
+  "terracotta-03": {
+    "slug": "terracotta-03",
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      400,
+      800,
+      960
+    ],
+    "category": "terracotta",
+    "label": "Terracotta tile",
+    "alt": "Restored terracotta tile roof with fresh ridge capping, Melbourne — project 3",
+    "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAABQBQCdASoUABsAPw1ysVAsJySisBgMAYAhiWIAsP3/4B6KHBYb7or8eJ/rv/+kBcqzYAAA/tNyhyQpJHHZQs7CCo5GuMA4NbWNmZHOvLfucY+7KDmwhjUodzdhZAUgA8sPfQaXGbU1TQdqYt/vHaQgf0QfWmNY6jhJIaVza/0v8PyQkAA="
+  },
+  "terracotta-04": {
+    "slug": "terracotta-04",
+    "width": 1280,
+    "height": 960,
+    "widths": [
+      400,
+      800,
+      1200,
+      1280
+    ],
+    "category": "terracotta",
+    "label": "Terracotta tile",
+    "alt": "Restored terracotta tile roof with fresh ridge capping, Melbourne — project 4",
+    "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACwAwCdASoUAA8APxFysFAsJqSisAgBgCIJaACw7CHc9aonUgnJgAD+h3RwVJLtqAhb1JQnRgXqcIO0jfWfGOTzISJrPKsp4hSTs+BI2ue1m6g7UaLFDMyI7Q6VcKcxowAZpZAA"
+  }
+}

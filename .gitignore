@@ -48,3 +48,10 @@ out/
 .netlify/
 
 ._*
+# Генерируется из assets/photos через `npm run images`
+public/img/
+
+.output/
+
+# Симлинк на сборку, который создаёт nuxt generate
+/dist

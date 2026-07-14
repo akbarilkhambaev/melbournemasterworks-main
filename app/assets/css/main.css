@@ -1,0 +1,385 @@
+@import 'tailwindcss';
+@import './fonts.css';
+
+/* ==========================================================================
+   Дизайн-система Melbourne Masterworks — «светлый чистый»
+   Единственный источник правды по цвету, типографике, ритму и движению.
+   ========================================================================== */
+
+@theme {
+  /* --- Цвет: фирменный синий #033D79 как якорь шкалы --- */
+  --color-brand-50: #f0f5fb;
+  --color-brand-100: #dce9f5;
+  --color-brand-200: #bcd4ec;
+  --color-brand-300: #8fb6dd;
+  --color-brand-400: #5b90c7;
+  --color-brand-500: #2e6db4;
+  --color-brand-600: #0a5199;
+  --color-brand-700: #033d79; /* бренд */
+  --color-brand-800: #04305d;
+  --color-brand-900: #041e3b;
+  --color-brand-950: #020f1f;
+
+  /* Тёплый акцент — только точечно: гарантия, звёзды, ключевые цифры */
+  --color-accent-400: #fbbf24;
+  --color-accent-500: #f59e0b;
+  --color-accent-600: #d97706;
+
+  /* Поверхности и текст */
+  --color-ink: #0b1b2b;
+  --color-ink-soft: #4a5c6f;
+  /* Проходит WCAG AA (4.5:1) на всех наших фонах, а не только на белом:
+     белый 4.94 · surface-muted 4.63 · brand-50 4.50.
+     Было #7d8b99 — 3.49:1, то есть ниже нормы вообще везде. */
+  --color-ink-faint: #64727f;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f5f8fc;
+  --color-surface-sunken: #eaf1f9;
+  --color-line: #e3eaf3;
+
+  --color-success: #16a34a;
+  --color-danger: #dc2626;
+
+  /* --- Типографика --- */
+  --font-display: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  /* Плавная шкала: размер течёт от мобилы к десктопу без медиа-запросов */
+  --text-display: clamp(2.5rem, 1.2rem + 5.6vw, 5rem);
+  --text-display--line-height: 1.04;
+  --text-display--letter-spacing: -0.03em;
+  --text-h1: clamp(2rem, 1.1rem + 3.9vw, 3.75rem);
+  --text-h1--line-height: 1.08;
+  --text-h1--letter-spacing: -0.025em;
+  --text-h2: clamp(1.75rem, 1.15rem + 2.4vw, 2.75rem);
+  --text-h2--line-height: 1.15;
+  --text-h2--letter-spacing: -0.02em;
+  --text-h3: clamp(1.375rem, 1.1rem + 1.1vw, 1.875rem);
+  --text-h3--line-height: 1.25;
+  --text-h3--letter-spacing: -0.015em;
+  --text-lead: clamp(1.0625rem, 1rem + 0.35vw, 1.25rem);
+  --text-lead--line-height: 1.65;
+
+  /* --- Тени: синий подтон вместо серого, многослойные --- */
+  --shadow-soft: 0 1px 2px rgb(3 61 121 / 0.04), 0 4px 12px -2px rgb(3 61 121 / 0.06);
+  --shadow-card: 0 1px 2px rgb(3 61 121 / 0.05), 0 12px 32px -8px rgb(3 61 121 / 0.12);
+  --shadow-lift: 0 2px 4px rgb(3 61 121 / 0.06), 0 24px 48px -12px rgb(3 61 121 / 0.18);
+  --shadow-glow: 0 8px 32px -8px rgb(3 61 121 / 0.35);
+
+  /* --- Радиусы --- */
+  --radius-card: 1.25rem;
+  --radius-media: 1.5rem;
+
+  /* --- Кривые движения --- */
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out-soft: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+/* ==========================================================================
+   База
+   ========================================================================== */
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    /* Секции выезжают сбоку и до появления на миг торчат за край экрана.
+       Клипим на обоих уровнях, иначе на мобиле ловим горизонтальную прокрутку. */
+    overflow-x: clip;
+    /* Прокрутка к якорям — нативная и одинаковая на всех устройствах.
+       Раньше инерцию давал Lenis, но только на десктопе: на тач-экранах
+       прокрутка оставалась родной, и сайт вёл себя по-разному. */
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    background-color: var(--color-surface);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-feature-settings: 'cv02', 'cv03', 'cv04';
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: clip;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    text-wrap: balance;
+    color: var(--color-brand-900);
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Видимый фокус — сейчас его на сайте нет вообще */
+  :focus-visible {
+    outline: 2px solid var(--color-brand-600);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background: var(--color-brand-700);
+    color: white;
+  }
+
+  /* Не даём липкому хедеру перекрывать якорь при переходе по ссылке */
+  [id] {
+    scroll-margin-top: 6rem;
+  }
+
+  /* backdrop-filter — дорогая операция для слабых мобильных GPU.
+     На телефоне отдаём плотную заливку: разница на глаз почти незаметна,
+     а прокрутка перестаёт заикаться. */
+  @media (max-width: 1023px) {
+    .backdrop-blur-xl,
+    .backdrop-blur-lg {
+      backdrop-filter: none;
+      background-color: rgb(255 255 255 / 0.97);
+    }
+  }
+}
+
+/* ==========================================================================
+   Компонентные примитивы
+   ========================================================================== */
+
+@layer components {
+  /* Контейнер: нормальные поля на мобиле, где сейчас текст лепится к краю */
+  .container-page {
+    width: 100%;
+    max-width: 80rem;
+    margin-inline: auto;
+    padding-inline: clamp(1.25rem, 4vw, 3rem);
+  }
+
+  /* Единый вертикальный ритм секций.
+     (content-visibility: auto тут не подходит: у секции за экраном внутренние
+     элементы имеют нулевую высоту, и кэш геометрии параллакса собирается
+     пустым. Замеры показывают, что прокрутка и без этого держит 120 fps.) */
+  .section {
+    padding-block: clamp(3.5rem, 7vw, 7.5rem);
+  }
+
+  .section-tight {
+    padding-block: clamp(2.5rem, 5vw, 5rem);
+  }
+
+  /* Кнопки: раньше стили дублировались в каждом компоненте */
+  .btn-primary,
+  .btn-ghost,
+  .btn-white {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 0.75rem;
+    padding: 1rem 1.75rem;
+    font-family: var(--font-display);
+    font-weight: 700;
+    transition:
+      background-color 0.3s var(--ease-out-soft),
+      border-color 0.3s var(--ease-out-soft),
+      box-shadow 0.3s var(--ease-out-soft);
+  }
+
+  .btn-primary {
+    background-color: var(--color-brand-700);
+    color: white;
+    box-shadow: var(--shadow-glow);
+  }
+
+  .btn-primary:hover {
+    background-color: var(--color-brand-600);
+  }
+
+  .btn-ghost {
+    border: 1px solid var(--color-line);
+    background-color: white;
+    color: var(--color-brand-900);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .btn-ghost:hover {
+    border-color: var(--color-brand-300);
+  }
+
+  .btn-white {
+    background-color: white;
+    color: var(--color-brand-800);
+  }
+
+  /* Надзаголовок секции */
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-display);
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-brand-600);
+  }
+
+  .eyebrow::before {
+    content: '';
+    inline-size: 1.5rem;
+    block-size: 2px;
+    border-radius: 2px;
+    background: currentColor;
+  }
+}
+
+/* ==========================================================================
+   Утилиты
+   ========================================================================== */
+
+@utility text-balance-none {
+  text-wrap: initial;
+}
+
+/* Мягкий световой ореол за геройской секцией — «воздух» светлой темы.
+   Пятна медленно дышат, поэтому фон не выглядит мёртвой заливкой. */
+@utility bg-aurora {
+  position: relative;
+  background-image:
+    radial-gradient(60rem 32rem at 12% -8%, rgb(59 130 246 / 0.1), transparent 60%),
+    radial-gradient(48rem 28rem at 92% 4%, rgb(245 158 11 / 0.08), transparent 62%);
+  background-size: 200% 200%;
+  animation: aurora-drift 26s var(--ease-in-out-soft) infinite alternate;
+}
+
+/* Точечная сетка — фактура для тёмных секций, чтобы не были плоской заливкой */
+@utility bg-dotgrid {
+  background-image: radial-gradient(rgb(255 255 255 / 0.07) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* ==========================================================================
+   Ключевые кадры (нужны и на главной, и на внутренних страницах)
+   ========================================================================== */
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+/* Кадр очень медленно наезжает — движение читается, но не отвлекает */
+@keyframes ken-burns {
+  from {
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+  to {
+    transform: scale(1.12) translate3d(-1.5%, -1.5%, 0);
+  }
+}
+
+/* Световые пятна фона медленно перетекают */
+@keyframes aurora-drift {
+  from {
+    background-position:
+      0% 0%,
+      100% 0%;
+  }
+  to {
+    background-position:
+      30% 20%,
+      70% 30%;
+  }
+}
+
+/* Бегущая строка регалий */
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Подсказка «крути вниз» */
+@keyframes scroll-cue {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.45;
+  }
+  50% {
+    transform: translateY(7px);
+    opacity: 1;
+  }
+}
+
+/* ==========================================================================
+   Переходы между страницами (View Transitions)
+   ========================================================================== */
+
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root) {
+  animation: vt-out 0.28s var(--ease-in-out-soft) both;
+}
+
+::view-transition-new(root) {
+  animation: vt-in 0.42s var(--ease-out-soft) both;
+}
+
+@keyframes vt-out {
+  to {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes vt-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+
+/* ==========================================================================
+   Движение: всё анимированное обязано уметь выключаться
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  /* Элементы, которые появляются на скролле, должны остаться видимыми */
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  /* Бесконечные анимации не должны крутиться вечно у тех, кого от них укачивает */
+  .bg-aurora,
+  .marquee-track,
+  .scroll-cue {
+    animation: none !important;
+  }
+
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none !important;
+  }
+}

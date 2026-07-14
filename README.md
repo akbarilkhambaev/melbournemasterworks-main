@@ -1,23 +1,63 @@
-## Development Server
+# Melbourne Masterworks
 
-Start the development server on `http://localhost:3000`
+Сайт кровельной компании: Nuxt 4 + Tailwind v4, статический экспорт.
 
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
+## Запуск
 
 ```bash
-npm run build
+npm install
+npm run dev          # http://localhost:3000
 ```
 
-Locally preview production build:
+## Сборка
 
 ```bash
-npm run preview
+npm run generate     # → .output/public — заливается на любой хостинг как есть
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+`generate` сам прогоняет конвейер изображений. Готовые картинки лежат в
+`public/img/` и **не хранятся в git** — они пересобираются из `assets/photos/`.
+
+## Изображения
+
+Оригиналы фотографий — в `assets/photos/` (это источник правды).
+
+```bash
+npm run images            # инкрементально: пересчитает только новое
+npm run images -- --force # пересобрать всё заново
+```
+
+Скрипт делает из каждого JPEG набор AVIF + WebP в четырёх ширинах, снимает EXIF
+и генерирует размытую заглушку. Результат и размеры пишутся в
+`app/data/photos.gen.json`, откуда их берёт компонент `<AppImage>`.
+
+Категория фотографии определяется по имени файла: `restoration-*`, `repairs-*`,
+`terracotta-*`, `metal-*`, `gutters-*`, `ba-*` (пары «до/после»). Чтобы добавить
+новые фото — положите их в `assets/photos/` с нужным префиксом и запустите
+`npm run images`.
+
+## Формы заявок
+
+**Важно:** на старом сайте формы отправляли POST на `/api/sendMail.php` —
+такого адреса не существовало ни в проекте, ни на хостинге, поэтому все заявки
+терялись. Сейчас есть два рабочих режима, настраиваются через `.env`
+(см. `.env.example`).
+
+- **`web3forms`** (по умолчанию) — работает на статическом хостинге. Нужен
+  бесплатный ключ с [web3forms.com](https://web3forms.com), получатель писем
+  настраивается у них в кабинете.
+- **`server`** — если сайт переедет на Node-хостинг. Тогда заявки принимает
+  `server/api/lead.post.ts` и отправляет через SMTP.
+
+Пока `NUXT_PUBLIC_WEB3FORMS_KEY` не заполнен, форма честно скажет об этом в
+интерфейсе, а не сделает вид, что письмо ушло.
+
+## Что нужно от заказчика
+
+- `app/data/testimonials.ts` — отзывы пустые. Пока массив пуст, секция отзывов
+  не рендерится (выдуманные отзывы писать нельзя). Добавьте настоящие — она
+  появится сама.
+- `app/data/areas.ts` — список районов составлен предварительно, вычитайте.
+- `app/data/site.ts` — проверьте телефон и часы работы (в старом футере номер
+  был на цифру длиннее австралийского формата).
+- Логотип нужен в векторе: сейчас только PNG, на ретине мылит.

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.melbournemasterworks.com.au/sitemap.xml
