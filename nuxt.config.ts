@@ -30,16 +30,19 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     // Заполняется из .env — см. .env.example
-    smtpHost: '',
-    smtpPort: '',
-    smtpUser: '',
-    smtpPass: '',
-    leadRecipient: 'info@melbournemasterworks.com.au',
+    smtpHost: process.env.SMTP_HOST || '',
+    smtpPort: process.env.SMTP_PORT || '',
+    smtpSecure: process.env.SMTP_SECURE || '',
+    smtpUser: process.env.SMTP_USER || '',
+    smtpPass: process.env.SMTP_PASS || '',
+    leadRecipient: process.env.SMTP_USER || 'info@melbournemasterworks.com.au',
     public: {
       // Статический хостинг не умеет серверные роуты, поэтому заявки уходят
       // через внешний сервис. Переключается на 'server' одной строкой,
       // если сайт переедет на Node-хостинг.
-      formMode: 'web3forms' as 'web3forms' | 'server',
+      formMode: (process.env.SMTP_HOST && process.env.SMTP_USER && process.env.SMTP_PASS
+        ? 'server'
+        : 'web3forms') as 'web3forms' | 'server',
       web3formsKey: '',
       // Живой домен редиректит без-www на www — canonical обязан указывать на
       // конечный адрес, иначе Google получает противоречивый сигнал

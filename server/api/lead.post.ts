@@ -43,12 +43,15 @@ export default defineEventHandler(async (event) => {
   }
 
   const port = Number(config.smtpPort) || 465
+  const secure = config.smtpSecure
+    ? String(config.smtpSecure).toLowerCase() === 'true'
+    : port === 465
 
   const transporter = nodemailer.createTransport({
     host: config.smtpHost,
     port,
     // 465 — SSL с самого начала, 587 — STARTTLS уже внутри соединения
-    secure: port === 465,
+    secure,
     auth: { user: config.smtpUser, pass: config.smtpPass },
   })
 
